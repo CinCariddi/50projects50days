@@ -1,0 +1,91 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.imagen1 {
+    background-image: url("https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.imagen2{
+    background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.imagen3{
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80');
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.imagen4{
+    background-image: url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.imagen5{
+    background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.active{
+    width: 90vw;
+    flex: 5;
+    padding-left: 20px;
+}
+
+.notActive {
+    width: 6vw;
+    color: transparent;
+}
