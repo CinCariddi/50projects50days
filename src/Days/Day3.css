@@ -1,0 +1,157 @@
+.body {
+    font-family: 'Lato', sans-serif;
+    color: #222;
+    background-color: #333;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.contenedorDia3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 110vh;
+    padding:450px;
+    padding-top: 50px;
+    max-width: 1000px;
+    background-color: #fafafa;
+}
+
+.imagenDia3{
+    height: 650px;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedorDia3 small{
+    font-style: italic
+}
+
+.circle-container {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+}
+
+.circle {
+    background-color: #ff7979;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s linear;
+}
+  
+.container .show-nav .circle {
+    transform: rotate(-70deg);
+}
+  
+.circle button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    background: transparent;
+    border: 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.circle button:focus {
+    outline: none;
+}
+  
+.open {
+    left: 60%;
+}
+  
+.close {
+    left: 40%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+
+.container.show-nav {
+    transform: rotate(-20deg);
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+
+.container.show-nav + nav li {
+    transform: translateX(0);
+    transition-delay: 0.3s;
+}
+
+.container.close-nav {
+    transform: rotate(0deg);
+}
+
+.close {
+    left: 40%;
+    height: 0 !important;
+    margin: 10px;
+}
+
+.navBar{
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 40px 0;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in;
+}
+
+nav ul li + li {
+    margin-left: 15px;
+    transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+    margin-left: 30px;
+    transform: translateX(-200%);
+}
+  
+nav a{
+    color: #fafafa;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.notNavBar ul{
+    color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    height: 0;
+    padding-left: 0% !important;
+    margin: 0%;
+}

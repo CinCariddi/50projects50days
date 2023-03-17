@@ -3,7 +3,6 @@ import './Day2.css'
 
 export default function Day2(){
     const [currentStep, setCurrentStep] = useState(1);
-    console.log(currentStep)
     
     const handleNext = () => {
         if (currentStep < 4 && currentStep >= 1) {

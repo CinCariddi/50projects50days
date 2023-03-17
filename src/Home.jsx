@@ -5,9 +5,10 @@ export default function Home() {
         <div className='home'>
             <div>
                 <h3>50 Proyectos 50 días</h3>
-                <ol>
+                <ol className='list'>
                     <a href="expanding-cards" > Día 1: Expanding Cards</a>
                     <a href="progress-steps" > Día 2: Progress Steps</a>
+                    <a href="rotating-navigation-animation" > Día 3: Rotating Navigation Animation</a>
                 </ol>
             </div>
         </div>
