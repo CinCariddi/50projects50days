@@ -1,7 +1,7 @@
 import './Day3.css'
 import { useState } from 'react';
 
-export default function Day1() {
+export default function Day3() {
     const [isOpen, setIsOpen] = useState(false);
     console.log(isOpen)
     // const [translateX, setTranslateX] = useState("");

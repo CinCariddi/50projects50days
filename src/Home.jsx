@@ -9,6 +9,7 @@ export default function Home() {
                     <a href="expanding-cards" > Día 1: Expanding Cards</a>
                     <a href="progress-steps" > Día 2: Progress Steps</a>
                     <a href="rotating-navigation-animation" > Día 3: Rotating Navigation Animation</a>
+                    <a href="hidden-search-widget" > Día 4: Hidden Search Widget</a>
                 </ol>
             </div>
         </div>
