@@ -1,0 +1,43 @@
+.body4{
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btnDia4{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.inputDia4{
+    width: 200px;
+    background-color: #fff;
+    border: 0;
+    font-size: 18px;
+    height: 45px;
+    transition: all 0.7s ease;
+    margin-left: 12px;
+    outline: none;
+}
+
+.search{
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.7s ease;
+
+}
+
+.closeSearch{
+    width: 0;
+}
