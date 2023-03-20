@@ -1,0 +1,37 @@
+.contenedorDia5 {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.loadingImage {
+  background: no-repeat center center/cover;
+  /* position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px); */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+  
+  .loading-text {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    height: 106.4vh;
+    width: 103.1vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

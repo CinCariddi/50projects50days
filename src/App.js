@@ -3,6 +3,7 @@ import Day1 from './Days/Day1';
 import Day2 from './Days/Day2';
 import Day3 from './Days/Day3';
 import Day4 from './Days/Day4';
+import Day5 from './Days/Day5';
 import Home from './Home';
 
 
@@ -17,6 +18,7 @@ function App() {
             <Route path='progress-steps' element={<Day2/>}/>
             <Route path='rotating-navigation-animation' element={<Day3/>}/>
             <Route path='hidden-search-widget' element={<Day4/>}/>
+            <Route path='blurry-loading' element={<Day5/>}/>
           </Route>
         </Routes>
       </Router>
