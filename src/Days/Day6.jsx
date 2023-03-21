@@ -41,27 +41,6 @@ export default function Dia6() {
     }, [boxView]);
 
 
-
-    // useEffect (() => {
-    //     const checkBoxes = () => {
-    //         for (let index = 0; index < newBoxes.length; index++) {
-    //             const element = newBoxes[index];
-    //             if(element.top < window.innerHeight && element.bottom > 0) {
-    //                 let cacheBoxes = boxView
-    //                 cacheBoxes[index] = true
-    //                 setBoxView(cacheBoxes)
-    //             } else {
-    //                 let cacheBoxes = boxView
-    //                 cacheBoxes[index] = true
-    //                 setBoxView(cacheBoxes)
-    //             }
-    //         }
-    //     }
-    //     window.addEventListener('scroll', checkBoxes());
-    //     return () => window.removeEventListener('scroll', checkBoxes)
-    // }, [boxView])
-
-
     return (
         <div className='contenedorDia6'>
             <h1>Scroll to see the animation</h1>
