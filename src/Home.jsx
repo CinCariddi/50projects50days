@@ -13,6 +13,7 @@ export default function Home() {
                     <a href="blurry-loading" > Día 5: Blurry Loading</a>
                     <a href="scroll-animation" > Día 6: Scroll Animation</a>
                     <a href="split-landing-page" > Día 7: Split Landing Page</a>
+                    <a href="form-wave" > Día 8: Form Wave</a>
                 </ol>
             </div>
         </div>
