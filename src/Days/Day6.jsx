@@ -6,19 +6,16 @@ export default function Dia6() {
     const boxes = document.querySelectorAll('div.box')
     const [newBoxes, setNewBoxes] = useState([])
     const [triggerBottom, setTriggerBottom] = useState(0)
-    const box = (() => {
-        let test = []
-        for (let i = 0; i < boxes.length ; i++) {
-            test.push(boxes[i].getBoundingClientRect())
-        }
-        setNewBoxes(test)
-    })
 
     console.log(boxView, triggerBottom, newBoxes)
 
     useEffect(() => {
         setTriggerBottom(window.scrollY)
-        box()
+        let test = []
+        for (let i = 0; i < boxes.length ; i++) {
+            test.push(boxes[i].getBoundingClientRect())
+        }
+        setNewBoxes(test)
         const handleScroll = () => {
             setTriggerBottom(window.scrollY)
             let actualInfo = window.scrollY + window.innerHeight
@@ -39,6 +36,7 @@ export default function Dia6() {
         return () => window.removeEventListener('scroll', handleScroll);
         
     }, [boxView]);
+
 
 
     return (

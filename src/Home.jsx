@@ -12,6 +12,7 @@ export default function Home() {
                     <a href="hidden-search-widget" > Día 4: Hidden Search Widget</a>
                     <a href="blurry-loading" > Día 5: Blurry Loading</a>
                     <a href="scroll-animation" > Día 6: Scroll Animation</a>
+                    <a href="split-landing-page" > Día 7: Split Landing Page</a>
                 </ol>
             </div>
         </div>

@@ -1,0 +1,157 @@
+.contenedorDia7{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    display: flex;
+}
+
+h1 {
+    font-size: 78px;
+    color: #fff;
+    transform: translateX(25vh);  
+    /* transform: translate(25%, 25%) translateX(0); */
+    white-space: nowrap;
+    margin-top: 25%;
+    transition: transform 1s ease-in;
+    margin-left: 0;
+}
+  
+.btnDia7 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 1.5rem;
+    transform: translateX(15vw);
+    margin-top: 45px;
+    transition: transform 1s ease-in
+}
+
+
+.splitLeft {
+    position: relative;
+    left: 0;
+    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/bradtraversy/50projects50days/master/split-landing-page/ps.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    background-color: rgba(87, 84, 236, 1);
+    transition: width 1s ease-in
+}
+
+.splitRight {
+    right: 0;
+    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/bradtraversy/50projects50days/master/split-landing-page/xbox.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    transition: width 1s ease-in
+}
+
+.splitLeft .btnDia7:hover {
+    background-color: rgba(87, 84, 236, 1);
+    border-color: rgba(87, 84, 236, 1);
+}
+  
+.splitRight .btnDia7:hover {
+    background-color: rgba(28, 122, 28, 1);
+    border-color: rgba(28, 122, 28, 1);
+}
+
+/* .splitLeft:hover{
+    width: 100vw;
+    transition: width 1s ease-in-out;
+}
+
+.splitRight:hover{
+    width: 100vw;
+    transition: width 1s ease-in-out;
+} */
+
+/* .left{
+    height: 100vh;
+    transform: translateY(-243.75px);
+    padding-top: 243.75px;
+    background-color: rgba(87, 84, 236, 1);
+    opacity: .7;
+}
+
+.right {
+    height: 100vh;
+    transform: translateY(-243.75px);
+    padding-top: 243.75px;
+    background-color: #333;
+    opacity: .7;
+} */
+
+.splitLeft::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(87, 84, 236, 1);
+    opacity: .7;
+}
+
+.splitRight::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: .7;
+}
+
+.hover-left{
+    width: 75%;
+    transition: width 1s ease-in-out;
+}
+
+.hover-right {
+    width: 75%;
+    transition: width 1s ease-in-out;
+}
+
+.OfHover-left {
+    width: 25%;
+    transition: width 1s ease-in-out;
+}
+
+.OfHover-left h1 {
+    transform: translateX(0); 
+    transition: all 1s ease-out;
+    margin-top: 25%;
+}
+
+.OfHover-left .btnDia7 {
+    transform: translateX(0); 
+    transition: all 1s ease-out;
+}
+
+.OfHover-right {
+    width: 25%;
+    transition: width 1s ease-in-out;
+}
+
+.OfHover-right h1 {
+    transform: translateX(0); 
+    transition: transform 1s ease-out;
+    margin-top: 25%;
+}
+
+.OfHover-right .btnDia7 {
+    transform: translateX(0); 
+    transition: transform 1s ease-out;
+}

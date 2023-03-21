@@ -5,6 +5,7 @@ import Day3 from './Days/Day3';
 import Day4 from './Days/Day4';
 import Day5 from './Days/Day5';
 import Day6 from './Days/Day6';
+import Day7 from './Days/Day7';
 import Home from './Home';
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='hidden-search-widget' element={<Day4/>}/>
             <Route path='blurry-loading' element={<Day5/>}/>
             <Route path='scroll-animation' element={<Day6/>}/>
+            <Route path='split-landing-page' element={<Day7/>}/>
           </Route>
         </Routes>
       </Router>
