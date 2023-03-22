@@ -6,7 +6,7 @@ import Day4 from './Days/Day4';
 import Day5 from './Days/Day5';
 import Day6 from './Days/Day6';
 import Day7 from './Days/Day7';
-import Day8 from './Days/Day';
+import Day8 from './Days/Day8';
 import Home from './Home';
 
 
