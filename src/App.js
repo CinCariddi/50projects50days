@@ -7,6 +7,7 @@ import Day5 from './Days/Day5';
 import Day6 from './Days/Day6';
 import Day7 from './Days/Day7';
 import Day8 from './Days/Day8';
+import Day9 from './Days/Day9';
 import Home from './Home';
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='scroll-animation' element={<Day6/>}/>
             <Route path='split-landing-page' element={<Day7/>}/>
             <Route path='form-wave' element={<Day8/>}/>
+            <Route path='sound-board' element={<Day9/>}/>
           </Route>
         </Routes>
       </Router>
