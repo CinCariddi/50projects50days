@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Day1 from './Days/Day1';
+import Day10 from './Days/Day10';
 import Day2 from './Days/Day2';
 import Day3 from './Days/Day3';
 import Day4 from './Days/Day4';
@@ -27,6 +28,7 @@ function App() {
             <Route path='split-landing-page' element={<Day7/>}/>
             <Route path='form-wave' element={<Day8/>}/>
             <Route path='sound-board' element={<Day9/>}/>
+            <Route path='dad-jokes' element={<Day10/>}/>
           </Route>
         </Routes>
       </Router>
