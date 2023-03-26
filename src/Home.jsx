@@ -16,6 +16,7 @@ export default function Home() {
                     <a href="form-wave" > Día 8: Form Wave</a>
                     <a href="sound-board" > Día 9: Sound Board</a>
                     <a href="dad-jokes" > Día 10: Dad Jokes</a>
+                    <a href="event-keycodes" > Día 11: Event Keycodes</a>
                 </ol>
             </div>
         </div>
