@@ -10,6 +10,7 @@ import Day8 from './Days/Day8';
 import Day9 from './Days/Day9';
 import Day10 from './Days/Day10';
 import Day11 from './Days/Day11';
+import Day12 from './Days/Day12';
 import Home from './Home';
 
 
@@ -31,6 +32,7 @@ function App() {
             <Route path='sound-board' element={<Day9/>}/>
             <Route path='dad-jokes' element={<Day10/>}/>
             <Route path='event-keycodes' element={<Day11/>}/>
+            <Route path='faq-collapse' element={<Day12/>}/>
           </Route>
         </Routes>
       </Router>

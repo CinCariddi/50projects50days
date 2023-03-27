@@ -17,6 +17,7 @@ export default function Home() {
                     <a href="sound-board" > Día 9: Sound Board</a>
                     <a href="dad-jokes" > Día 10: Dad Jokes</a>
                     <a href="event-keycodes" > Día 11: Event Keycodes</a>
+                    <a href="faq-collapse" > Día 12: FAQ Collapse</a>
                 </ol>
             </div>
         </div>
