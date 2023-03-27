@@ -13,6 +13,7 @@ import Day11 from './Days/Day11';
 import Day12 from './Days/Day12';
 import Home from './Home';
 import Day13 from './Days/Day13';
+import Day14 from './Days/Day14';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Route path='event-keycodes' element={<Day11/>}/>
             <Route path='faq-collapse' element={<Day12/>}/>
             <Route path='random-choice-picker' element={<Day13/>}/>
+            <Route path='animated-navigation' element={<Day14/>}/>
           </Route>
         </Routes>
       </Router>

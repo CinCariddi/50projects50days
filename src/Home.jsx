@@ -19,6 +19,7 @@ export default function Home() {
                     <a href="event-keycodes" > Día 11: Event Keycodes</a>
                     <a href="faq-collapse" > Día 12: FAQ Collapse</a>
                     <a href="random-choice-picker" > Día 13: Random Choice Picker</a>
+                    <a href="animated-navigation" > Día 14: Animated Navigation</a>
                 </ol>
             </div>
         </div>
