@@ -12,6 +12,7 @@ import Day10 from './Days/Day10';
 import Day11 from './Days/Day11';
 import Day12 from './Days/Day12';
 import Home from './Home';
+import Day13 from './Days/Day13';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path='dad-jokes' element={<Day10/>}/>
             <Route path='event-keycodes' element={<Day11/>}/>
             <Route path='faq-collapse' element={<Day12/>}/>
+            <Route path='random-choice-picker' element={<Day13/>}/>
           </Route>
         </Routes>
       </Router>
