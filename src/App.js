@@ -14,6 +14,7 @@ import Day12 from './Days/Day12';
 import Home from './Home';
 import Day13 from './Days/Day13';
 import Day14 from './Days/Day14';
+import Day15 from './Days/Day15';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path='faq-collapse' element={<Day12/>}/>
             <Route path='random-choice-picker' element={<Day13/>}/>
             <Route path='animated-navigation' element={<Day14/>}/>
+            <Route path='incrementing-counter' element={<Day15/>}/>
           </Route>
         </Routes>
       </Router>

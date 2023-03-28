@@ -13,7 +13,7 @@ h1 {
     margin: 10px;
 }
   
-.box {
+.boxRight {
     background-color: steelblue;
     color: #fff;
     display: flex;
@@ -24,25 +24,33 @@ h1 {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-    /* transform: translateX(400%); */
+    transform: translateX(400%); 
     transition: transform 0.4s ease;
 }
   
-.box:nth-of-type(even) {
+.boxLeft {
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(-400%);
+    transition: transform 0.4s ease;
 }
   
-/* .box.show {
-    transform: translateX(0);
-} */
-  
-.box h2 {
+.boxRight .boxLeft h2 {
     font-size: 45px;
 }
-
-.boxOn {
-    transform: translateX(0) !important;
+  
+.boxRight.active6 {
+    transform: translateX(0);
 }
-.boxOf {
-    transform: translateX(400%);
+  
+.boxLeft.active6 {
+    transform: translateX(0);
 }
