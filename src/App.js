@@ -15,6 +15,7 @@ import Home from './Home';
 import Day13 from './Days/Day13';
 import Day14 from './Days/Day14';
 import Day15 from './Days/Day15';
+import Day16 from './Days/Day16';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             <Route path='random-choice-picker' element={<Day13/>}/>
             <Route path='animated-navigation' element={<Day14/>}/>
             <Route path='incrementing-counter' element={<Day15/>}/>
+            <Route path='drink-water' element={<Day16/>}/>
           </Route>
         </Routes>
       </Router>
