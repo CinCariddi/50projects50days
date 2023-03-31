@@ -16,6 +16,7 @@ import Day13 from './Days/Day13';
 import Day14 from './Days/Day14';
 import Day15 from './Days/Day15';
 import Day16 from './Days/Day16';
+import Day17 from './Days/Day17';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
             <Route path='animated-navigation' element={<Day14/>}/>
             <Route path='incrementing-counter' element={<Day15/>}/>
             <Route path='drink-water' element={<Day16/>}/>
+            <Route path='movie-app' element={<Day17/>}/>
           </Route>
         </Routes>
       </Router>

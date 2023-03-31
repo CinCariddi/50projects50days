@@ -22,6 +22,7 @@ export default function Home() {
                     <a href="animated-navigation" > Día 14: Animated Navigation</a>
                     <a href="incrementing-counter" > Día 15: Incrementing Counter</a>
                     <a href="drink-water" > Día 16: Drink Water</a>
+                    <a href="movie-app" > Día 17: Movie App</a>
                 </ol>
             </div>
         </div>
