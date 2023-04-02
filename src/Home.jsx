@@ -24,6 +24,7 @@ export default function Home() {
                     <a href="drink-water" > Día 16: Drink Water</a>
                     <a href="movie-app" > Día 17: Movie App</a>
                     <a href="background-slider" > Día 18: Backgroup Slider</a>
+                    <a href="theme-clock" > Día 19: Theme Clock</a>
                 </ol>
             </div>
         </div>

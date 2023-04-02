@@ -18,6 +18,7 @@ import Day15 from './Days/Day15';
 import Day16 from './Days/Day16';
 import Day17 from './Days/Day17';
 import Day18 from './Days/Day18';
+import Day19 from './Days/Day19';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             <Route path='drink-water' element={<Day16/>}/>
             <Route path='movie-app' element={<Day17/>}/>
             <Route path='background-slider' element={<Day18/>}/>
+            <Route path='theme-clock' element={<Day19/>}/>
           </Route>
         </Routes>
       </Router>
