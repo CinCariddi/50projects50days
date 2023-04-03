@@ -25,6 +25,7 @@ export default function Home() {
                     <a href="movie-app" > Día 17: Movie App</a>
                     <a href="background-slider" > Día 18: Backgroup Slider</a>
                     <a href="theme-clock" > Día 19: Theme Clock</a>
+                    <a href="button-ripple-effect" > Día 20: Button Ripple Effect</a>
                 </ol>
             </div>
         </div>

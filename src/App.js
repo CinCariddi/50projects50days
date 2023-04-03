@@ -19,6 +19,7 @@ import Day16 from './Days/Day16';
 import Day17 from './Days/Day17';
 import Day18 from './Days/Day18';
 import Day19 from './Days/Day19';
+import Day20 from './Days/Day20';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
             <Route path='movie-app' element={<Day17/>}/>
             <Route path='background-slider' element={<Day18/>}/>
             <Route path='theme-clock' element={<Day19/>}/>
+            <Route path='button-ripple-effect' element={<Day20/>}/>
           </Route>
         </Routes>
       </Router>
