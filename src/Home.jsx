@@ -26,6 +26,7 @@ export default function Home() {
                     <a href="background-slider" > Día 18: Backgroup Slider</a>
                     <a href="theme-clock" > Día 19: Theme Clock</a>
                     <a href="button-ripple-effect" > Día 20: Button Ripple Effect</a>
+                    <a href="drag-n-drop" > Día 21: Drag N Drop</a>
                 </ol>
             </div>
         </div>

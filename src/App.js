@@ -20,6 +20,7 @@ import Day17 from './Days/Day17';
 import Day18 from './Days/Day18';
 import Day19 from './Days/Day19';
 import Day20 from './Days/Day20';
+import Day21 from './Days/Day21';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
             <Route path='background-slider' element={<Day18/>}/>
             <Route path='theme-clock' element={<Day19/>}/>
             <Route path='button-ripple-effect' element={<Day20/>}/>
+            <Route path='drag-n-drop' element={<Day21/>}/>
           </Route>
         </Routes>
       </Router>
