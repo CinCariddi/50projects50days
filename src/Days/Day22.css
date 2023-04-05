@@ -7,21 +7,21 @@
     justify-content: center;
     height: 100vh;
     margin: 0;
-  }
+}
   
-  canvas {
+canvas {
     border: 2px solid steelblue;
-  }
+}
   
-  .toolbox {
+.toolbox {
     background-color: steelblue;
     border: 1px solid slateblue;
     display: flex;
     width: 800px;
     padding: 1rem;
-  }
+}
   
-  .toolbox > * {
+.toolbox > * {
     background-color: #fff;
     border: none;
     display: inline-flex;
@@ -33,9 +33,9 @@
     margin: 0.25rem;
     padding: 0.25rem;
     cursor: pointer;
-  }
+}
   
-  .toolbox > *:last-child {
+.toolbox > *:last-child {
     margin-left: auto;
-  }
+}
   
