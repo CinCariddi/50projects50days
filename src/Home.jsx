@@ -27,6 +27,7 @@ export default function Home() {
                     <a href="theme-clock" > Día 19: Theme Clock</a>
                     <a href="button-ripple-effect" > Día 20: Button Ripple Effect</a>
                     <a href="drag-n-drop" > Día 21: Drag N Drop</a>
+                    <a href="drawing-app" > Día 22: Drawing App</a>
                 </ol>
             </div>
         </div>
