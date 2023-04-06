@@ -28,6 +28,7 @@ export default function Home() {
                     <a href="button-ripple-effect" > Día 20: Button Ripple Effect</a>
                     <a href="drag-n-drop" > Día 21: Drag N Drop</a>
                     <a href="drawing-app" > Día 22: Drawing App</a>
+                    <a href="kinetic-loader" > Día 23: Kinetic Loader</a>
                 </ol>
             </div>
         </div>
