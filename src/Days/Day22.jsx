@@ -31,14 +31,10 @@ export default function Day22() {
     ctx.stroke();
   }
 
-  function updateSizeOnScreen() {
-    setSize(10);
-  }
-
   function mousedown(e) {
     setIsPressed(true);
-    setX(e.pageX);
-    setY(e.pageY);
+    setX(e.nativeEvent.offsetX);
+    setY(e.nativeEvent.offsetY);
   }
 
   function mouseup() {
@@ -48,29 +44,25 @@ export default function Day22() {
   }
 
   function mousemove(e) {
-    if (isPressed) {
-      const x2 = e.pageX;
-      const y2 = e.pageY;
-      drawCircle(x2, y2);
-      drawLine(x, y, x2, y2);
-      setX(x2);
-      setY(y2);
+    if (isPressed) { 
+        const x2 = e.nativeEvent.offsetX;
+        const y2 = e.nativeEvent.offsetY;
+        drawCircle(x2, y2);
+        drawLine(x, y, x2, y2);
+        setX(x2);
+        setY(y2);
     }
   }
 
   function increase() {
-    updateSizeOnScreen();
-    const count = 5;
-    if (size > 5 && size < 50) {
-      setSize(5 + count);
+    if (size >= 5 && size < 50) {
+      setSize(5 + size);
     }
   }
 
   function decrease() {
-    updateSizeOnScreen();
-    const count = 5;
-    if (size > 5 && size < 50) {
-      setSize(5 - count);
+    if (size > 5 && size <= 50) {
+      setSize(size - 5);
     }
   }
 
@@ -95,13 +87,13 @@ export default function Day22() {
         ref={canvas}
       ></canvas>
       <div className="toolbox">
-        <button id="decrease" onClick={increase}>
+        <button id="decrease" onClick={decrease}>
           -
         </button>
         <span id="size" ref={sizeEL}>
           {size}
         </span>
-        <button id="increase" onClick={decrease}>
+        <button id="increase" onClick={increase}>
           +
         </button>
         <input
