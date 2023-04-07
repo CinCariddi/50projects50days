@@ -29,6 +29,7 @@ export default function Home() {
                     <a href="drag-n-drop" > Día 21: Drag N Drop</a>
                     <a href="drawing-app" > Día 22: Drawing App</a>
                     <a href="kinetic-loader" > Día 23: Kinetic Loader</a>
+                    <a href="content-placeholder" > Día 24: Content Placeholder</a>
                 </ol>
             </div>
         </div>
