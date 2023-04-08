@@ -30,6 +30,7 @@ export default function Home() {
                     <a href="drawing-app" > Día 22: Drawing App</a>
                     <a href="kinetic-loader" > Día 23: Kinetic Loader</a>
                     <a href="content-placeholder" > Día 24: Content Placeholder</a>
+                    <a href="sticky-navbar" > Día 25: Sticky Navbar</a>
                 </ol>
             </div>
         </div>

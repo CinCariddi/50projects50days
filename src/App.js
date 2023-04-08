@@ -24,6 +24,7 @@ import Day21 from './Days/Day21';
 import Day22 from './Days/Day22';
 import Day23 from './Days/Day23';
 import Day24 from './Days/Day24';
+import Day25 from './Days/Day25';
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
             <Route path='drawing-app' element={<Day22/>}/>
             <Route path='kinetic-loader' element={<Day23/>}/>
             <Route path='content-placeholder' element={<Day24/>}/>
+            <Route path='sticky-navbar' element={<Day25/>}/>
           </Route>
         </Routes>
       </Router>
