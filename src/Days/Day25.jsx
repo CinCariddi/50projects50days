@@ -23,11 +23,11 @@ export default function Day25() {
         <nav className="navDay25" ref={nav}>
             <div className="containerDay25">
             <h1 className="logo">
-                <a href="/index.html">My Website</a>
+                <a href="#">My Website</a>
             </h1>
             <ul>
                 <li>
-                <a href="#" class="current">
+                <a href="#" className="current">
                     Home
                 </a>
                 </li>
