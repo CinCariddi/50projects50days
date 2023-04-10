@@ -26,6 +26,7 @@ import Day23 from './Days/Day23';
 import Day24 from './Days/Day24';
 import Day25 from './Days/Day25';
 import Day26 from './Days/Day26';
+import Day27 from './Days/Day27';
 
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
             <Route path='content-placeholder' element={<Day24/>}/>
             <Route path='sticky-navbar' element={<Day25/>}/>
             <Route path='double-vertical-slider' element={<Day26/>}/>
+            <Route path='toast-notification' element={<Day27/>}/>
           </Route>
         </Routes>
       </Router>

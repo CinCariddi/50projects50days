@@ -31,7 +31,8 @@ export default function Home() {
                     <a href="kinetic-loader" > Día 23: Kinetic Loader</a>
                     <a href="content-placeholder" > Día 24: Content Placeholder</a>
                     <a href="sticky-navbar" > Día 25: Sticky Navbar</a>
-                    <a href="double-vertical-slider" > Día 26: Double-vertical-slider</a>
+                    <a href="double-vertical-slider" > Día 26: Double Vertical Slider</a>
+                    <a href="toast-notification" > Día 27: Toast Notification</a>
                 </ol>
             </div>
         </div>
