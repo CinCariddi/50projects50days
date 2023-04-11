@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .contenedorDia27 {
+.contenedorDia27 {
     background-color: rebeccapurple;
     font-family: "Poppins", sans-serif;
     display: flex;
@@ -14,9 +14,9 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-  }
+}
   
-  .btn {
+.btn27 {
     background-color: #ffffff;
     color: rebeccapurple;
     font-family: inherit;
@@ -25,41 +25,41 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-  }
+}
   
-  .btn:focus {
+.btn27:focus {
     outline: none;
-  }
+}
   
-  .btn:active {
+.btn27:active {
     transform: scale(0.98);
-  }
+}
   
-  #toasts {
+.toasts {
     position: fixed;
     bottom: 10px;
     right: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-  }
+}
   
-  .toast {
+.toasts {
     background-color: #fff;
     border-radius: 5px;
     padding: 1rem 2rem;
     margin: 0.5rem;
-  }
+}
   
-  .toast.info {
+.toasts.info {
     color: rebeccapurple;
-  }
+}
   
-  .toast.success {
+.toasts.success {
     color: green;
-  }
+}
   
-  .toast.error {
+.toasts.error {
     color: red;
-  }
+}
   
