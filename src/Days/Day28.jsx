@@ -2,9 +2,6 @@ import "./Day28.css";
 
 export default function Day28() {
     const APIURL = "https://api.github.com/users/";
-    const main = document.getElementById("main");
-    const form = document.getElementById("form");
-    const search = document.getElementById("search");
 
     async function getUser(username) {
         try {
@@ -33,14 +30,15 @@ export default function Day28() {
     }
 
     function createUserCard(user) {
+        const main = document.getElementById("main");
         const userID = user.name || user.login;
         const userBio = user.bio ? `<p>${user.bio}</p>` : "";
         const cardHTML = `
-            <div className="card">
+            <div class="card28">
                 <div>
-                    <img src="${user.avatar_url}" alt="${user.name}" className="avatar">
+                    <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
                 </div>
-                <div className="user-info">
+                <div class="userInfo">
                     <h2>${userID}</h2>
                     ${userBio}
                     <ul>
@@ -56,8 +54,9 @@ export default function Day28() {
     }
 
     function createErrorCard(msg) {
+        const main = document.getElementById("main");
         const cardHTML = `
-            <div className="card">
+            <div className="card28">
                 <h1>${msg}</h1>
             </div>
         `;
@@ -78,6 +77,7 @@ export default function Day28() {
     }
 
     function handleSubmit(e) {
+        const search = document.getElementById("search");
         e.preventDefault();
         const user = search.value;
         if (user) {
@@ -89,15 +89,13 @@ export default function Day28() {
     return (
         <div className="contenedorDia28">
             <form
-                className="user-form"
+                className="userForm"
                 id="form"
-                useRef={form}
                 onSubmit={handleSubmit}
             >
                 <input
                 type="text"
                 id="search"
-                useRef={search}
                 placeholder="Search a Github User"
                 />
             </form>

@@ -17,12 +17,12 @@
     margin: 0;
 }
   
-.user-form {
+.userForm {
     width: 100%;
     max-width: 700px;
 }
   
-.user-form input {
+.userForm input {
     width: 100%;
     display: block;
     background-color: #4c2885;
@@ -37,15 +37,15 @@
       0 15px 40px rgba(0, 0, 0, 0.1);
 }
   
-.user-form input::placeholder {
+.userForm input::placeholder {
     color: #bbb;
 }
   
-.user-form input:focus {
+.userForm input:focus {
     outline: none;
 }
   
-.card {
+.card28 {
     max-width: 800px;
     background-color: #4c2885;
     border-radius: 20px;
@@ -63,16 +63,16 @@
     width: 150px;
 }
   
-.user-info {
+.userInfo {
     color: #eee;
     margin-left: 2rem;
 }
   
-.user-info h2 {
+.userInfo h2 {
     margin-top: 0;
 }
   
-.user-info ul {
+.userInfo ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -80,12 +80,12 @@
     max-width: 400px;
 }
   
-.user-info ul li {
+.userInfo ul li {
     display: flex;
     align-items: center;
 }
   
-.user-info ul li strong {
+.userInfo ul li strong {
     font-size: 0.9rem;
     margin-left: 0.5rem;
 }
@@ -102,12 +102,12 @@
 }
   
 @media (max-width: 500px) {
-    .card {
+    .card28 {
       flex-direction: column;
       align-items: center;
     }
   
-    .user-form {
+    .userForm {
       max-width: 400px;
     }
 }
