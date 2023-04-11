@@ -27,6 +27,7 @@ import Day24 from './Days/Day24';
 import Day25 from './Days/Day25';
 import Day26 from './Days/Day26';
 import Day27 from './Days/Day27';
+import Day28 from './Days/Day28';
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
             <Route path='sticky-navbar' element={<Day25/>}/>
             <Route path='double-vertical-slider' element={<Day26/>}/>
             <Route path='toast-notification' element={<Day27/>}/>
+            <Route path='github-profiles' element={<Day28/>}/>
           </Route>
         </Routes>
       </Router>

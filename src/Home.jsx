@@ -33,6 +33,7 @@ export default function Home() {
                     <a href="sticky-navbar" > Día 25: Sticky Navbar</a>
                     <a href="double-vertical-slider" > Día 26: Double Vertical Slider</a>
                     <a href="toast-notification" > Día 27: Toast Notification</a>
+                    <a href="github-profiles" > Día 28: GitHub Profiles</a>
                 </ol>
             </div>
         </div>
