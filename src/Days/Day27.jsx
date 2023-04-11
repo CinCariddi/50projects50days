@@ -51,11 +51,6 @@ export default function Day27() {
         <div className="contenedorDia27">
             <div ref={toasts}>
                 <div ref={noti}>
-                    {
-                    notif?.map((n) => (
-                        n
-                    ))
-                    }
                 </div>
             </div>
             <button className="btn27" ref={button} onClick={handleClick}>
