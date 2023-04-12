@@ -1,19 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
 .contenedorDia6 {
     background-color: #efedd6;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    overflow-x: hidden;
-}
-
-h1 {
     margin: 10px;
+    padding: 20px;
 }
   
-.boxRight {
+.box {
     background-color: steelblue;
     color: #fff;
     display: flex;
@@ -21,36 +23,21 @@ h1 {
     justify-content: center;
     width: 400px;
     height: 200px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-    transform: translateX(400%); 
+    transform: translateX(400%);
     transition: transform 0.4s ease;
 }
   
-.boxLeft {
-    background-color: steelblue;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+.box:nth-of-type(even) {
     transform: translateX(-400%);
-    transition: transform 0.4s ease;
 }
   
-.boxRight .boxLeft h2 {
+.box.show {
+    transform: translateX(0);
+}
+  
+.box h2 {
     font-size: 45px;
-}
-  
-.boxRight.active6 {
-    transform: translateX(0);
-}
-  
-.boxLeft.active6 {
-    transform: translateX(0);
 }

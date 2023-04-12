@@ -1,57 +1,72 @@
 import './Day6.css'
-import { useEffect,useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function Day6() {
-    const elementRef = useRef(null);
+  const boxesRef = useRef([]);
 
   useEffect(() => {
-    const element = elementRef.current;
-    console.log(element)
-    if (element) {
-      element.classList.add('active6');
-    }
+    window.addEventListener("scroll", checkBoxes);
+    checkBoxes();
+
+    return () => {
+      window.removeEventListener("scroll", checkBoxes);
+    };
   }, []);
+
+  function checkBoxes() {
+    const boxes = boxesRef.current;
+    const triggerBottom = (window.innerHeight / 5) * 4;
+
+    boxes.forEach((box) => {
+      const boxTop = box.getBoundingClientRect().top; // medida top del elemento
+
+      if (boxTop < triggerBottom) {
+        box.classList.add("show");
+      } else {
+        box.classList.remove("show");
+      }
+    });
+  }
 
   return (
     <div className="contenedorDia6">
-      <h1>Scroll to see the animation</h1>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[0] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxLeft" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[1] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[2] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxLeft" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[3] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[4] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxLeft" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[5] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[6] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxLeft" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[7] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[8] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxLeft" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[9] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[10] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxLeft" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[11] = el)}>
         <h2>Content</h2>
       </div>
-      <div className="boxRight" ref={elementRef}>
+      <div className="box" ref={(el) => (boxesRef.current[12] = el)}>
         <h2>Content</h2>
       </div>
     </div>

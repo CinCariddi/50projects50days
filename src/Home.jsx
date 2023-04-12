@@ -34,6 +34,7 @@ export default function Home() {
                     <a href="double-vertical-slider" > Día 26: Double Vertical Slider</a>
                     <a href="toast-notification" > Día 27: Toast Notification</a>
                     <a href="github-profiles" > Día 28: GitHub Profiles</a>
+                    <a href="double-click-heart" > Día 29: Double Click Heart</a>
                 </ol>
             </div>
         </div>
