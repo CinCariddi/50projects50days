@@ -1,26 +1,31 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./Day29.css";
 
 export default function Day29() {
     const [likes, setLikes] = useState(0);
+    const [liked, setLiked] = useState(false)
+    const heart = useRef('heart-animation')
 
-    function handleDoubleClick() {
+    function handleDoubleClick(e) {
         setLikes(likes + 1);
-        // createHeart(e);
-        console.log(likes);
+        createHeart(e)
     }
 
-  // const createHeart = () => {
-  //   const loveMe = document.querySelector(".heart");
-  //   const heart = document.createElement("i");
-  //   console.log("heart", heart);
-  //   heart.classList.add("fas");
-  //   heart.classList.add("fa-heart");
-
-  //   loveMe.append(heart);
-
-  //   setTimeout(() => heart.remove(), 1000);
-  // };
+    const createHeart = (e) => {
+        console.log('e', e)
+        console.log('heart', heart)
+        setLiked(true);
+    
+        const x = e.clientX
+        const y = e.clientY
+    
+        heart.current.style.top = `${y}px`
+        heart.current.style.left = `${x}px`
+        setTimeout(() => {
+            setLiked(false);
+        }, 3000);
+    
+    }
 
     return (
         <div className="contenedorDia29">
@@ -31,9 +36,13 @@ export default function Day29() {
                 src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
                 alt="img"
                 className="imagen28"
-                onDoubleClick={handleDoubleClick}
+                onDoubleClick={(e) => handleDoubleClick(e)}
                 />
-                <div className="heart fa-heart"></div>
+                {liked && (
+                    <div className="heart-animation" ref={heart}>
+                        <i className="fas fa-heart">❤</i>
+                    </div>
+                )}
             </div>
         </div>
     );
