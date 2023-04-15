@@ -15,16 +15,13 @@ export default function Day29() {
         console.log('e', e)
         console.log('heart', heart)
         setLiked(true);
-    
         const x = e.clientX
         const y = e.clientY
-    
         heart.current.style.top = `${y}px`
         heart.current.style.left = `${x}px`
         setTimeout(() => {
             setLiked(false);
         }, 3000);
-    
     }
 
     return (

@@ -35,6 +35,7 @@ export default function Home() {
                     <a href="toast-notification" > Día 27: Toast Notification</a>
                     <a href="github-profiles" > Día 28: GitHub Profiles</a>
                     <a href="double-click-heart" > Día 29: Double Click Heart</a>
+                    <a href="auto-text-effect" > Día 30: Auto Text Effect</a>
                 </ol>
             </div>
         </div>

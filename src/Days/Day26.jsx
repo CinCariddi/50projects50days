@@ -25,8 +25,7 @@ export default function Day26() {
             }
         }
         slideRight.current.style.transform = `translateY(-${
-        activeSlideIndex * sliderHeight
-        }px)`;
+        activeSlideIndex * sliderHeight}px)`;
         slideLeft.current.style.transform = `translateY(${
         activeSlideIndex * sliderHeight
         }px)`;

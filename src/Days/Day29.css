@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -29,29 +31,20 @@
 }
   
 .fa-heart {
-    color: red;
+  color: red;
+  font-family: Times New Roman;
 }
 
 .heart-animation {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    animation: pulse 3s ease-in-out;
+  position: absolute;
+  animation: grow 0.6s linear;
+  transform: translate(-50%, -50%) scale(0);;
 }
-  
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-      opacity: 1;
-    }
-    50% {
-      transform: scale(1.5);
-      opacity: 0.5;
-    }
-    100% {
-      transform: scale(2);
-      opacity: 0;
-    }
-  }
+
+.ubi{
+  top: 264px;
+  left: 952px
+}
   
 @keyframes grow {
     to {
