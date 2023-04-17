@@ -3,8 +3,6 @@ import "./Day29.css";
 
 export default function Day29() {
     const [likes, setLikes] = useState(0);
-    const [liked, setLiked] = useState(false)
-    const heart = useRef('heart-animation')
 
     function handleDoubleClick(e) {
         setLikes(likes + 1);
@@ -12,21 +10,26 @@ export default function Day29() {
     }
 
     const createHeart = (e) => {
-        console.log('e', e)
-        console.log('heart', heart)
-        setLiked(true);
+        const hearts = document.getElementById('containerDay29')
+        const newElement = document.createElement('i')
+        newElement.classList.add('fas')
+        newElement.classList.add('fa-heart')
+        newElement.innerText = '❤'
         const x = e.clientX
         const y = e.clientY
-        heart.current.style.top = `${y}px`
-        heart.current.style.left = `${x}px`
-        setTimeout(() => {
-            setLiked(false);
-        }, 3000);
+        newElement.style.top = `${y}px`
+        newElement.style.left = `${x}px`
+        if(hearts){
+            hearts?.appendChild(newElement)
+            setTimeout(() => {
+                newElement.remove()
+            }, 10000);
+        }
     }
 
     return (
         <div className="contenedorDia29">
-            <div className="containerDay29">
+            <div id="containerDay29" className="containerDay29">
                 <h3>Double click on the image to 🧡 it</h3>
                 <small>You liked it {likes} times</small>
                 <img
@@ -35,11 +38,6 @@ export default function Day29() {
                 className="imagen28"
                 onDoubleClick={(e) => handleDoubleClick(e)}
                 />
-                {liked && (
-                    <div className="heart-animation" ref={heart}>
-                        <i className="fas fa-heart">❤</i>
-                    </div>
-                )}
             </div>
         </div>
     );

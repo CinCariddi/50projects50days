@@ -17,6 +17,7 @@
     flex-direction: column;
     height: 500px;
     align-items: center;
+    position: relative;
 }
   
 .imagen28 {
@@ -31,20 +32,15 @@
 }
   
 .fa-heart {
+  z-index: 1;
   color: red;
   font-family: Times New Roman;
-}
-
-.heart-animation {
   position: absolute;
   animation: grow 0.6s linear;
-  transform: translate(-50%, -50%) scale(0);;
+  transform: translate(-50%, -50%) scale(0);
 }
 
-.ubi{
-  top: 264px;
-  left: 952px
-}
+
   
 @keyframes grow {
     to {
