@@ -30,6 +30,8 @@ import Day27 from './Days/Day27';
 import Day28 from './Days/Day28';
 import Day29 from './Days/Day29';
 import Day30 from './Days/Day30';
+import Day31 from './Days/Day31';
+import Day32 from './Days/Day32';
 
 
 function App() {
@@ -69,6 +71,8 @@ function App() {
             <Route path='github-profiles' element={<Day28/>}/>
             <Route path='double-click-heart' element={<Day29/>}/>
             <Route path='auto-text-effect' element={<Day30/>}/>
+            <Route path='password-generator' element={<Day31/>}/>
+            <Route path='good-cheap-fast' element={<Day32/>}/>
           </Route>
         </Routes>
       </Router>

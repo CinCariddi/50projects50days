@@ -36,6 +36,8 @@ export default function Home() {
                     <a href="github-profiles" > Día 28: GitHub Profiles</a>
                     <a href="double-click-heart" > Día 29: Double Click Heart</a>
                     <a href="auto-text-effect" > Día 30: Auto Text Effect</a>
+                    <a href="password-generator" > Día 31: Password Generator</a>
+                    <a href="good-cheap-fast" > Día 32: Good Cheap Fast</a>
                 </ol>
             </div>
         </div>
