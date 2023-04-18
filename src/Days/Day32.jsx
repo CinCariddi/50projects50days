@@ -2,13 +2,11 @@ import React, { useEffect } from "react";
 import "./Day32.css";
 
 export default function Day32() {
-    const toggles = document.querySelectorAll(".toggle");
-    const good = document.querySelector("#good");
-    const cheap = document.querySelector("#cheap");
-    const fast = document.querySelector("#fast");
-
-    console.log('good', good)
     function doTheTrick(theClickedOne) {
+        const good = document.querySelector("#good");
+        const cheap = document.querySelector("#cheap");
+        const fast = document.querySelector("#fast");
+
         if (good.checked && cheap.checked && fast.checked) {
             if (good === theClickedOne) {
                 fast.checked = false;
@@ -23,6 +21,7 @@ export default function Day32() {
     }
 
     useEffect(() => {
+        const toggles = document.querySelectorAll(".toggle");
         toggles.forEach((toggle) =>
         toggle.addEventListener("change", (e) => doTheTrick(e.target))
         );
