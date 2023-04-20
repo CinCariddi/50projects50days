@@ -38,6 +38,7 @@ export default function Home() {
                     <a href="auto-text-effect" > Día 30: Auto Text Effect</a>
                     <a href="password-generator" > Día 31: Password Generator</a>
                     <a href="good-cheap-fast" > Día 32: Good Cheap Fast</a>
+                    <a href="notes-app" > Día 33: Notes App</a>
                 </ol>
             </div>
         </div>

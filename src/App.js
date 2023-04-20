@@ -32,6 +32,7 @@ import Day29 from './Days/Day29';
 import Day30 from './Days/Day30';
 import Day31 from './Days/Day31';
 import Day32 from './Days/Day32';
+import Day33 from './Days/Day33';
 
 
 function App() {
@@ -73,6 +74,7 @@ function App() {
             <Route path='auto-text-effect' element={<Day30/>}/>
             <Route path='password-generator' element={<Day31/>}/>
             <Route path='good-cheap-fast' element={<Day32/>}/>
+            <Route path='notes-app' element={<Day33/>}/>
           </Route>
         </Routes>
       </Router>
