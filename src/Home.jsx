@@ -39,6 +39,8 @@ export default function Home() {
                     <a href="password-generator" > Día 31: Password Generator</a>
                     <a href="good-cheap-fast" > Día 32: Good Cheap Fast</a>
                     <a href="notes-app" > Día 33: Notes App</a>
+                    <a href="animated-countdown" > Día 34: Animated Countdown</a>
+                    <a href="image-carousel" > Día 35: Image Carousel</a>
                 </ol>
             </div>
         </div>
