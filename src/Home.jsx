@@ -41,6 +41,7 @@ export default function Home() {
                     <a href="notes-app" > Día 33: Notes App</a>
                     <a href="animated-countdown" > Día 34: Animated Countdown</a>
                     <a href="image-carousel" > Día 35: Image Carousel</a>
+                    <a href="hoverboard" > Día 36: Hoverboard</a>
                 </ol>
             </div>
         </div>

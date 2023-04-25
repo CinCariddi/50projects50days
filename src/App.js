@@ -35,6 +35,7 @@ import Day32 from './Days/Day32';
 import Day33 from './Days/Day33';
 import Day34 from './Days/Day34';
 import Day35 from './Days/Day35';
+import Day36 from './Days/Day36';
 
 
 function App() {
@@ -79,6 +80,7 @@ function App() {
             <Route path='notes-app' element={<Day33/>}/>
             <Route path='animated-countdown' element={<Day34/>}/>
             <Route path='image-carousel' element={<Day35/>}/>
+            <Route path='hoverboard' element={<Day36/>}/>
           </Route>
         </Routes>
       </Router>
