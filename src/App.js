@@ -36,6 +36,7 @@ import Day33 from './Days/Day33';
 import Day34 from './Days/Day34';
 import Day35 from './Days/Day35';
 import Day36 from './Days/Day36';
+import Day37 from './Days/Day37';
 
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
             <Route path='animated-countdown' element={<Day34/>}/>
             <Route path='image-carousel' element={<Day35/>}/>
             <Route path='hoverboard' element={<Day36/>}/>
+            <Route path='pokedex' element={<Day37/>}/>
           </Route>
         </Routes>
       </Router>

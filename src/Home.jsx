@@ -42,6 +42,7 @@ export default function Home() {
                     <a href="animated-countdown" > Día 34: Animated Countdown</a>
                     <a href="image-carousel" > Día 35: Image Carousel</a>
                     <a href="hoverboard" > Día 36: Hoverboard</a>
+                    <a href="pokedex" > Día 37: Pokedex</a>
                 </ol>
             </div>
         </div>
