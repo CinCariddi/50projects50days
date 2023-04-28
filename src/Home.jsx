@@ -44,6 +44,7 @@ export default function Home() {
                     <a href="hoverboard" > Día 36: Hoverboard</a>
                     <a href="pokedex" > Día 37: Pokedex</a>
                     <a href="mobile-tab-navigation" > Día 38: Mobile Tab Navigation</a>
+                    <a href="password-strength-background" > Día 39: Password Strength Background</a>
                 </ol>
             </div>
         </div>
