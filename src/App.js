@@ -40,6 +40,7 @@ import Day37 from './Days/Day37';
 import Day38 from './Days/Day38';
 import Day39 from './Days/Day39';
 import Day40 from './Days/Day40';
+import Day41 from './Days/Day41';
 
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
             <Route path='mobile-tab-navigation' element={<Day38/>}/>
             <Route path='password-strength-background' element={<Day39/>}/>
             <Route path='3d-background-boxes' element={<Day40/>}/>
+            <Route path='verify-account-ui' element={<Day41/>}/>
           </Route>
         </Routes>
       </Router>
