@@ -48,6 +48,7 @@ export default function Home() {
                     <a href="3d-background-boxes" > Día 40: 3D Background Boxes</a>
                     <a href="verify-account-ui" > Día 41: Verify Account UI</a>
                     <a href="live-user-filter" > Día 42: Live User Filter</a>
+                    <a href="feedback-ui-design" > Día 43: Feedback UI Design</a>
                 </ol>
             </div>
         </div>

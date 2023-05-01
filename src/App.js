@@ -42,6 +42,7 @@ import Day39 from './Days/Day39';
 import Day40 from './Days/Day40';
 import Day41 from './Days/Day41';
 import Day42 from './Days/Day42';
+import Day43 from './Days/Day43';
 
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
             <Route path='3d-background-boxes' element={<Day40/>}/>
             <Route path='verify-account-ui' element={<Day41/>}/>
             <Route path='live-user-filter' element={<Day42/>}/>
+            <Route path='feedback-ui-design' element={<Day43/>}/>
           </Route>
         </Routes>
       </Router>
