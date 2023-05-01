@@ -47,6 +47,7 @@ export default function Home() {
                     <a href="password-strength-background" > Día 39: Password Strength Background</a>
                     <a href="3d-background-boxes" > Día 40: 3D Background Boxes</a>
                     <a href="verify-account-ui" > Día 41: Verify Account UI</a>
+                    <a href="live-user-filter" > Día 42: Live User Filter</a>
                 </ol>
             </div>
         </div>
