@@ -50,6 +50,7 @@ export default function Home() {
                     <a href="live-user-filter" > Día 42: Live User Filter</a>
                     <a href="feedback-ui-design" > Día 43: Feedback UI Design</a>
                     <a href="custom-range-slider" > Día 44: Custom Range Slider</a>
+                    <a href="netflix-mobile-navigation" > Día 45: Netflix Mobile Navigation</a>
                 </ol>
             </div>
         </div>
