@@ -49,6 +49,7 @@ export default function Home() {
                     <a href="verify-account-ui" > Día 41: Verify Account UI</a>
                     <a href="live-user-filter" > Día 42: Live User Filter</a>
                     <a href="feedback-ui-design" > Día 43: Feedback UI Design</a>
+                    <a href="custom-range-slider" > Día 44: Custom Range Slider</a>
                 </ol>
             </div>
         </div>
