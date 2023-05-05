@@ -52,6 +52,7 @@ export default function Home() {
                     <a href="custom-range-slider" > Día 44: Custom Range Slider</a>
                     <a href="netflix-mobile-navigation" > Día 45: Netflix Mobile Navigation</a>
                     <a href="quiz-app" > Día 46: Quiz App</a>
+                    <a href="testimonial-box-switcher" > Día 47: Testimonial Box Switcher/</a>
                 </ol>
             </div>
         </div>

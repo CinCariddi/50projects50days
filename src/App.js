@@ -46,6 +46,7 @@ import Day43 from './Days/Day43';
 import Day44 from './Days/Day44';
 import Day45 from './Days/Day45';
 import Day46 from './Days/Day46';
+import Day47 from './Days/Day47';
 
 
 function App() {
@@ -101,6 +102,7 @@ function App() {
             <Route path='custom-range-slider' element={<Day44/>}/>
             <Route path='netflix-mobile-navigation' element={<Day45/>}/>
             <Route path='quiz-app' element={<Day46/>}/>
+            <Route path='testimonial-box-switcher' element={<Day47/>}/>
           </Route>
         </Routes>
       </Router>
