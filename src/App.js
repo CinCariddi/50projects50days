@@ -47,6 +47,8 @@ import Day44 from './Days/Day44';
 import Day45 from './Days/Day45';
 import Day46 from './Days/Day46';
 import Day47 from './Days/Day47';
+import Day48 from './Days/Day48';
+import Day49 from './Days/Day49';
 
 
 function App() {
@@ -103,6 +105,8 @@ function App() {
             <Route path='netflix-mobile-navigation' element={<Day45/>}/>
             <Route path='quiz-app' element={<Day46/>}/>
             <Route path='testimonial-box-switcher' element={<Day47/>}/>
+            <Route path='random-image-feed' element={<Day48/>}/>
+            <Route path='todo-list' element={<Day49/>}/>
           </Route>
         </Routes>
       </Router>
