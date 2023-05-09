@@ -55,6 +55,7 @@ export default function Home() {
                     <a href="testimonial-box-switcher" > Día 47: Testimonial Box Switcher</a>
                     <a href="random-image-feed" > Día 48: Random Image Feed</a>
                     <a href="todo-list" > Día 49: ToDo List</a>
+                    <a href="insect-catch-game" > Día 50: Insect Catch Game</a>
                 </ol>
             </div>
         </div>

@@ -49,6 +49,7 @@ import Day46 from './Days/Day46';
 import Day47 from './Days/Day47';
 import Day48 from './Days/Day48';
 import Day49 from './Days/Day49';
+import Day50 from './Days/Day50';
 
 
 function App() {
@@ -107,6 +108,7 @@ function App() {
             <Route path='testimonial-box-switcher' element={<Day47/>}/>
             <Route path='random-image-feed' element={<Day48/>}/>
             <Route path='todo-list' element={<Day49/>}/>
+            <Route path='insect-catch-game' element={<Day50/>}/>
           </Route>
         </Routes>
       </Router>
