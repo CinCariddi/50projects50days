@@ -1,11 +1,26 @@
 import './Home.css'
+import data from './data.json'
+
 
 export default function Home() {
+    const days = data.days
     return (
         <div className='home'>
             <div>
-                <h3>50 Proyectos 50 días</h3>
-                <ol className='list'>
+                <h2>50 Proyectos 50 días</h2>
+                <div className='container-days'>
+                    {
+                        days.map((day) => (
+                            <div key={day.day} className='card-days'>
+                                <a href={day.href}>
+                                    <img src={day.image} alt=''/>
+                                    <h4>{day.day}. {day.title}</h4>
+                                </a>
+                            </div>
+                        ))
+                    }
+                </div>
+                {/* <ol className='list'>
                     <a href="expanding-cards" > Día 1: Expanding Cards</a>
                     <a href="progress-steps" > Día 2: Progress Steps</a>
                     <a href="rotating-navigation-animation" > Día 3: Rotating Navigation Animation</a>
@@ -56,7 +71,7 @@ export default function Home() {
                     <a href="random-image-feed" > Día 48: Random Image Feed</a>
                     <a href="todo-list" > Día 49: ToDo List</a>
                     <a href="insect-catch-game" > Día 50: Insect Catch Game</a>
-                </ol>
+                </ol> */}
             </div>
         </div>
     )
