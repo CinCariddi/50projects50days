@@ -23,8 +23,6 @@
 
 a {
     text-decoration: none;
-    text-decoration-color: mediumpurple;
-
 }
 
 .card-days {
@@ -33,9 +31,10 @@ a {
     margin: 10px;
 }
 
-img {
-    width: 300px;
-    height: 400px;
-    object-fit: contain;
+.imageStyle {
+    width: 400px;
+    height: 300px;
+    object-fit: fit;
+    margin: 10px;
 }
 

@@ -14,10 +14,10 @@ export default function Day3() {
     }
 
     return (
-        <div className='body'>
+        <div className='bodyDay3'>
             <div className={`containerDay3 ${isOpen === true? 'show-navDay3' : 'close-navDay3'}`}>
-                <div className="circle-container">
-                    <div className="circle">
+                <div className="circle-containerDay3">
+                    <div className="circleDay3">
                         <button id="closeDay3" className="closeDay3" onClick={() => handleClose()}> ⨯ </button>
                         <button id="openDay3" className="openDay3" onClick={() => handleClick()}>
                             <> ≡ </>
