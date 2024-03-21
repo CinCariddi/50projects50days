@@ -107,7 +107,7 @@
             "day": 18,
             "title": "Backgroup Slider",
             "image": "./public/Images/day18.jpeg",
-            "href":"backgroup-slider"  
+            "href":"background-slider"  
         },
         {
             "day": 19,
@@ -119,7 +119,7 @@
             "day": 20,
             "title": "Button Ripple Effect",
             "image": "./public/Images/day20.jpeg",
-            "href":"buttom-ripple-effect"  
+            "href":"button-ripple-effect"  
         },
         {
             "day": 21,
@@ -197,7 +197,7 @@
             "day": 33,
             "title": "Notes App",
             "image": "./public/Images/day33.jpeg",
-            "href":"note-app"  
+            "href":"notes-app"  
         },
         {
             "day": 34,
